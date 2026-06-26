@@ -1,1 +1,3 @@
-# mentorat-ai-nova
+# Mentorat AI - Nova
+
+Proba inițială pentru verificarea GitHub + Netlify.

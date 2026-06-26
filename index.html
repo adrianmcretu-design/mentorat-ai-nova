@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mentorat AI - Nova</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(160deg, #eef4ff, #fff7e6);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #1f2937;
+    }
+    .card {
+      width: 92%;
+      max-width: 430px;
+      background: white;
+      border-radius: 28px;
+      padding: 28px;
+      box-shadow: 0 20px 60px rgba(37,99,235,.18);
+      text-align: center;
+    }
+    h1 { color: #2563eb; margin-bottom: 4px; }
+    .nova {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      background: linear-gradient(145deg,#7dd3fc,#a78bfa);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 22px auto;
+      font-size: 52px;
+      position: relative;
+      box-shadow: 0 12px 30px rgba(79,70,229,.25);
+    }
+    .nova span {
+      position: absolute;
+      right: -8px;
+      bottom: 2px;
+      font-size: 30px;
+    }
+    button {
+      width: 100%;
+      border: 0;
+      border-radius: 18px;
+      padding: 15px;
+      background: #2563eb;
+      color: white;
+      font-size: 17px;
+      font-weight: 800;
+      cursor: pointer;
+    }
+    .box {
+      background: #eff6ff;
+      border-radius: 18px;
+      padding: 14px;
+      margin: 16px 0;
+      font-weight: 700;
+      color: #1d4ed8;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Mentorat AI</h1>
+    <p>Învață 15 minute cu Nova</p>
+    <div class="nova">😊<span>🚲</span></div>
+    <div class="box">Proba funcționează 🎉</div>
+    <p>Dacă vezi această pagină pe Netlify, repository-ul și deploy-ul merg corect.</p>
+    <button onclick="alert('Bravo! Următorul pas: versiunea cu quiz.')">Testează Nova</button>
+  </div>
+</body>
+</html>
